@@ -1,0 +1,659 @@
+*
+{   padding: 0px;
+    margin: 0px ;
+    box-sizing: border-box;
+}
+.clr
+{   clear: both;
+}
+.pcolor
+{   color: #ff305b;
+}
+.home 
+{   background-image: url(img/slider-01.jpg);
+    background-size: cover;
+    height: 700px;
+    color: white;
+    position: relative;
+}
+.nav
+{   padding: 10px;
+    margin: 0px 50px;
+    overflow:hidden;
+    position: relative;
+}
+.nav .logo
+{   font-size: 25px;
+    width: 20%;
+    position: absolute;
+    padding: 10px;
+}
+.nav  ul 
+{   float: right;}
+
+.nav  ul li
+{   padding: 10px;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    list-style: none;
+    display: inline-block;
+    font-weight: 100;}
+
+.home .home_cont
+{   position: absolute;
+    left: 35% ;
+    top: 40%;
+    text-align: center;}
+
+.home .home_cont h1
+{   font-size: 70px;}
+
+.home .home_cont h3
+{   color:white;
+    font-size: 20px;}
+
+.home .home_cont .anim
+{   color:white;
+    font-size: 28px;}
+
+.home .layer
+{   background-color: rgba(0,0,0,0.8);
+    height: 100%; }
+
+.word 
+{   float: left;
+    text-align: center;
+    font-size: 26px; }
+
+.cons
+{   margin-left: 50px;
+    padding-right: 10px;}
+
+.anim
+{   width:120px;
+    border-right: 3px white solid;
+    animation: dis 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    overflow: hidden; }
+@keyframes dis
+{   0%{width:120px}
+    25%{width:0px}}
+
+.profile
+{   padding:50px;
+    margin: 20px;
+    height: 100%;
+}
+.block
+{
+float: left;
+}
+.acc .fa
+{
+    color: white;
+}
+.profile-img
+{
+    position: relative;
+    width: 30%;    
+    margin: 30px;
+    overflow: hidden;
+}
+.profile-img img 
+{
+    width: 100%;
+    border-radius: 5px;
+}
+.acc
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0,0,0,0.7);
+    border-radius: 10px;
+    text-align: center;
+    top: 100%;
+    transition: all 1s;
+    }
+.profile-img:hover .acc
+{
+    top: 0;
+}
+.acc .fa:hover 
+{
+color: red
+}
+.acc i
+{
+   padding-top: 60%; 
+    margin:10px;
+}
+.descriotion
+{
+    width: 55%;
+    margin-left: 40px;
+    padding-left: 30px;
+}
+.descriotion h2
+{    position: relative;
+    font-size: 30px;
+    margin: 10px 0px;
+    padding-left: 15px;
+
+}
+.descriotion p
+{
+    border-bottom:dashed 1px grey;
+    margin: 10px 0px;
+    padding-bottom: 20px; 
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 20px;
+            color: #555555;
+
+}
+
+.descriotion span
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.descriotion tr td
+{
+    font-size:18px;
+    padding: 10px 0px;
+    padding-right: 60px;
+            color: #555555;
+
+}
+.btn
+{
+    background: #ff305b;
+    border-radius: 4px;
+    color:white;
+    font-size: 18px;
+    border-style: none;
+    margin-right: 15px;
+    margin-top: 10px;
+    padding: 10px 24px;
+}
+.our-services
+{
+     background-color: #f1f1f1;  
+     text-align: center;
+    height: 500px;
+}
+.our-services h2 
+{
+    font-size: 40px;
+    font-weight: 800;
+    padding: 50px 30px;
+    position: relative;
+}
+.our-services h2:after
+{
+    content: "";
+    background-color: transparent;
+    border-top: #ff305b 1px solid ;
+    border-bottom: #ff305b 1px solid ;   
+    position: absolute;
+    left:47%;
+    top:110px;
+    width:80px;
+    height:10px;
+}
+.service
+{   background-color: #f1f1f1;  
+    float: left ;
+    width: 25%;
+    text-align: center;
+    padding: 0px 30px;
+    letter-spacing: 1px;   
+}
+.service:hover
+{
+    background-color: white;
+    transition-duration: 0.5s;
+}
+.service:hover img
+{
+    width: 20%;
+    transition-duration: 0.5s;
+}
+.service img 
+{
+    width: 17%;
+    margin: 20px;
+}
+.services
+{
+background-color: #f1f1f1;
+    width: 100%;
+    padding:30px;
+}
+.service h3 
+{   font-size: 110%;
+    margin: 10px;
+    font-weight: 800;
+}
+ .service p
+{
+     color: #555555;
+   font-size: 110%;
+    margin: 10px;
+}
+.Our-Portfolio
+{
+        text-align: center;
+}
+.portofolios
+{
+    width: 80%;
+    height: 80%;
+    margin:auto;
+    padding : 50px;
+}
+.portofolio
+{
+    width: 30%;
+    float: left;
+    margin: 10px;
+    position: relative;
+}
+.portofolio img 
+{
+    width: 100%;   
+}
+.portofolio .layer
+{
+    background-color: rgba(0,0,0,0.8);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+     opacity: 0;
+    transition-duration: 1s;
+}
+.portofolio .layer i
+{
+       bottom: 10px;
+    right: 10px;
+    color: #ff305b;
+    position: absolute;
+}
+.portofolio:hover .layer 
+{
+    opacity:1;
+}
+.Our-Portfolio h2 
+{
+    font-size: 36px;
+    font-weight: 600;
+    padding: 40px 30px;
+    letter-spacing: 0.5px;
+    position: relative;
+}
+
+.Our-Portfolio h2:after
+{
+    content: "";
+    background-color: transparent;
+    border-top: #ff305b 1px solid ;
+    border-bottom: #ff305b 1px solid ;
+    left:47%;
+    top:110px;
+    width:80px;
+    height:10px;
+    position: absolute;
+}
+
+.Our-Portfolio ul 
+{
+      float: right;
+    left: 35%;
+    padding: 20px;
+    position: absolute;
+}
+.Our-Portfolio ul li
+{
+    padding: 10px;
+    letter-spacing: 0.5px;
+    list-style: none;
+    display: inline-block;
+    padding-bottom: 20px; 
+}
+.tittle
+{
+    margin-bottom: 50px;
+}
+.bar
+{
+    background-color: #f1f1f1;
+      height: 250px;  
+    margin: 50px 0px ;  
+}
+.items 
+{
+  width: 70%;
+    margin: auto;
+}
+.item
+{
+    width: 25%;
+    float: left;
+    padding: 60px 0px;
+    text-align: center;
+        margin: auto;
+
+}
+.item i 
+{
+   font-size: 30px;
+    color: #ff305b;
+}
+
+.item h2 , .item h3 , .item i 
+{
+    padding:4px;
+    
+}
+.item h3
+{
+    font-weight: 100;
+    color: #555555;
+    font-size: 14px;
+}
+.container
+{
+    margin: auto;
+    height: 150%;
+    width: 200%;
+    transform: skew(-40deg);
+    background-color: #f1f1f1 ;
+}
+.client-img
+{
+   left : -40;
+}
+.client-img img
+{
+    width: 70%;
+    border-radius: 50%;
+}
+.client-feedback
+{
+    width: 70%;
+        margin: auto;
+        left:90px;
+       width: 40%;
+}
+.client-feedback h4 
+{
+    font-size: 20px;
+    padding: 0px 5px;
+}
+.client-feedback h6
+{
+      padding:5px 5px;
+        color: #555555;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    font-weight: 100;
+}
+.client-feedback p
+{
+        padding:5px 5px;
+        color: #555555;
+    letter-spacing: 0.5px;
+
+}
+.client-feedback .rate
+{
+    color: gold;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+.overlay
+{
+    position: relative;
+    height: 250px;
+    width: 50%;
+    margin: auto;
+        overflow: hidden;
+    background-color: #ff305b;
+    border-radius: 4px; 
+}
+.feedback
+{
+    height: 500px;
+}
+.client
+{
+    float: left;
+    transform: skew(40deg);
+    position: absolute;
+    top :50px;
+}
+.Feedback h2 
+{
+    font-size: 36px;
+    font-weight: 600;
+    padding: 40px 30px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    position: relative;
+        margin-bottom: 20px;
+}
+.Feedback h2:after
+{
+    content: "";
+    background-color: transparent;
+    border-top: #ff305b 1px solid ;
+    border-bottom: #ff305b 1px solid ;
+    left:47%;
+    top:90px;
+    width:80px;
+    height:10px;
+    position: absolute;
+}
+.our-blog
+{
+    height: 700px;
+    background-color: #f1f1f1;
+    margin-top: 80px;
+}
+.blogs
+{    width: 80%;
+    margin:auto;
+}
+.blog
+{
+    float: left;
+    width: 30%;
+   margin: auto;
+    height: 60%;
+    background-color: white;
+    margin: 15px;
+    padding-bottom: 10px;
+}
+.blog h5 ,.blog h3 , .blog p , .blog span
+{
+    padding:10px 15px;
+     color: #555555;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    }
+.blog h3 
+{
+    font-size:130%;
+    font-weight: bold;
+    color: rgba(0,0,0,0.8);
+}
+.blog h3:hover
+{
+    color: #ff305b ;
+    transition-duration: 1s;
+}
+.blog span:hover
+{
+    color: #ff305b ;
+    transition-duration: 1s;
+}
+
+.blog img ,.blog iframe
+{
+    width: 100%;
+}
+.blog h5
+{
+    font-size: 18px;
+    font-weight: 100; 
+}
+.our-blog h2 
+{
+    font-size: 44px;
+    font-weight: 700;
+    padding: 40px 30px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    position: relative;
+        margin-bottom: 20px;
+}
+.our-blog h2:after
+{
+    content: "";
+    background-color: transparent;
+    border-top: #ff305b 1px solid ;
+    border-bottom: #ff305b 1px solid ;
+    left:47%;
+    top:100px;
+    width:80px;
+    height:10px;
+    position: absolute;
+}
+.contact-us
+{
+    margin-bottom: 60px;
+}
+form
+{
+    width: 50%;
+    margin:  auto;
+}
+input 
+{
+width: 40%;
+    height: 40px;
+    border: #a94442 solid 1px;
+    border-radius: 5px;
+    margin: 15px 30px 15px 0px;
+    padding: 10px;
+}
+.subject
+{
+    width: 85%;
+}
+textarea
+{
+    width: 85%;
+    height: 80px;
+    border: #a94442 solid 1px;
+    border-radius: 5px;
+    margin: 15px 15px 30px 0px;
+    padding: 10px;
+}
+.contact-us h2 
+{
+    font-size: 44px;
+    font-weight: 700;
+    padding: 40px 30px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    position: relative;
+        margin-bottom: 20px;
+}
+.contact-us h2:after
+{
+    content: "";
+    background-color: transparent;
+    border-top: #ff305b 1px solid ;
+    border-bottom: #ff305b 1px solid ;
+    left:47%;
+    top:100px;
+    width:80px;
+    height:10px;
+    position: absolute;
+}
+
+.footer
+{
+    height: 130px;
+    position: relative;
+    background-color: rgba(0,0,0,0.8);
+    text-align: center;
+}
+.contant
+{
+    position: absolute;
+    top:35%;
+    left:35%;
+    color: white;
+    padding: 10px;
+}
+.contant i , contant h4   
+{
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 100; 
+    letter-spacing: 1px;
+}
+.contant i:hover
+{
+    color: #ff305b;
+    transition-duration: 1s; 
+}
+.contant a
+{
+    color: #ff305b;
+    text-decoration-line: none;
+}
+.contant a:hover
+{
+        text-decoration-line:underline;
+
+}
+h2:before
+{
+        content: "";
+        background-color: #ff305b;
+        position: absolute;
+}
+
+.descriotion h2:before
+{ 
+    left:0; 
+    width:4px;
+    margin:5px 5px;
+    height:60%;
+}
+.our-services h2:before ,.Our-Portfolio h2:before
+{
+    top:115px;
+    right:43%;
+    width:180px;
+    height:1px;
+}
+
+.our-blog h2:before ,.contact-us h2:before
+{
+    top:105px;
+    right:43%;
+    width:180px;
+    height:1px;
+}
